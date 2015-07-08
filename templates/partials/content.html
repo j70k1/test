@@ -1,0 +1,24 @@
+<div class="main view">
+
+  <div id="experience" data-ng-include src="'templates/partials/content/experience.html'"></div>
+
+  <div id="skills" data-ng-include src="'templates/partials/content/skills.html'"></div>
+
+  <div id="education" data-ng-include src="'templates/partials/content/education.html'"></div>
+
+  <div id="principles" data-ng-include src="'templates/partials/content/principles.html'"></div>
+
+  <div id="hobbies" data-ng-include src="'templates/partials/content/hobbies.html'"></div>
+
+
+</div>
+
+<div class="navigation ">
+    <ul class="scrollers" data-ng-controller="ContentScrollCtrl">
+      <li><a class="experience" data-ng-click="scroll('experience')">Experience</a></li>
+      <li><a class="skills" data-ng-click="scroll('skills')">Skills</a></li>
+      <li><a class="education" data-ng-click="scroll('education')">Education</a></li>
+      <li><a class="principles" data-ng-click="scroll('principles')">Principles</a></li>
+      <li><a class="hobbies" data-ng-click="scroll('hobbies')">Hobbies</a></li>
+    </ul>
+</div>
